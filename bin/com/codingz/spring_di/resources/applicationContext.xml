@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+	<bean id="userBean" class="com.codingz.spring_di.bean.User">
+		<property name="idCard" value="9999999999" />
+		<property name="name" value="JL5S" />
+		<property name="lastname" value="5S" />
+		<property name="gender" value="Male" />
+		<property name="age" value="23" />
+		<property name="hobby" value="Music" />
+	</bean>
+	
+	
+</beans>
